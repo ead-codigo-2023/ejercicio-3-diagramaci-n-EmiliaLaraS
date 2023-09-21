@@ -1,0 +1,238 @@
+/*Cuerpo de toda la página*/
+body{
+    background-image: url('https://static.vecteezy.com/system/resources/previews/009/924/605/non_2x/green-aesthetic-abstract-minimal-background-perfect-for-wallpaper-backdrop-postcard-background-vector.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    text-align: left;
+    padding: 3rem;
+    font: 18px/30px Geneva,Arial,Tahoma,sans-serif;
+    color: #333;
+    text-align: left;
+    padding: 3rem;
+    font: 18px/30px Geneva,Arial,Tahoma,sans-serif;
+    color: #333;
+}
+
+
+/* Estilo de Contenedor principal */
+.page-wrapper {
+    display: flex;
+    gap: 100px;
+    
+}
+
+
+/*Estilos al encabezado de la página*/
+header {
+    background-color: #65a134; 
+    width: 100%; 
+    padding: 50px 0; 
+    z-index: 80; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    position: fixed;
+    position: relative;
+  overflow: hidden;
+  height: 200px;
+  float: left;
+  margin-bottom: 20px;
+}
+
+/* "CSS Zen Garden" */
+h1 {
+    text-rendering: optimizeLegibility;
+    font-size: 80%;
+    font-weight: bold ;
+    font-family: "ff-meta-web-pro", sans-serif;
+    color: #e8fccc;
+    position: absolute;
+  line-height: 2em;
+  top: 20px;
+  left: -3em;
+  width: auto;
+  margin: 0;
+  margin-left: 50px;
+  margin-top: 190px;
+  padding: 1em;
+  
+}
+
+/* "The beauty of css" */
+h2 {
+    text-shadow: 2px 2px 3px rgba(8, 65, 6, 0.5); 
+    border-bottom: 2px solid #e8fccc; 
+    padding-bottom: 10px;
+    width: 80%;
+    font-size: 36px; 
+    font-weight: bold; 
+    font-family: "ff-meta-web-pro", sans-serif;
+    color: #e8fccc;
+    margin-left: 20px;
+    line-height: 1.2;
+}
+
+/*" A demonstration of what can be accomplished through CSS-based design. Select any style sheet from the list to load it into this page." */
+#zen-summary p:first-child {
+    font-size: 16px; 
+    color: #555; 
+    line-height: 1.5; 
+    margin-left: 20px;
+
+}
+/* Download the example html file and css file*/
+#zen-summary p:last-child {
+    font-size: 13px; 
+    color: #555; 
+    line-height: 1.5; 
+    margin-left: 20px;
+}
+
+
+/*"The road to the Enlightenment"*/
+#zen-preamble h3 {
+    color: #65a134; 
+    font-weight: bold; 
+    font-size: 30px; 
+    line-height: 1.3; 
+}
+
+/*"Littering a dark and dreary road lay the past relics of browser-specific tags, incompatible DOMs, broken CSS support, and abandoned browsers.
+We must clear the mind of the past. Web enlightenment has been achieved thanks to the tireless efforts of folk like the W3C, WaSP, and the major browser creators.
+The CSS Zen Garden invites you to relax and meditate on the important lessons of the masters. Begin to see with clarity. Learn to use the time-honored techniques in new and invigorating fashion. Become one with the web."*/
+#zen-preamble p{
+    font-size: 16px; 
+    color: #555; 
+    line-height: 1.5; 
+}
+
+/*So What is This About?*/
+#zen-explanation h3 {
+    font-size: 24px; 
+    color: #65a134; 
+    font-weight: bold; 
+    font-size: 30px; 
+    margin-top: 50px;
+}
+
+/*There is a continuing need to show the power of CSS. The Zen Garden aims to excite, inspire, and encourage participation. To begin, view some of the existing designs in the list. Clicking on any one will load the style sheet into this very page. The HTML remains the same, the only thing that has changed is the external CSS file. Yes, really.
+CSS allows complete and total control over the style of a hypertext document. The only way this can be illustrated in a way that gets people excited is by demonstrating what it can truly be, once the reins are placed in the hands of those able to create beauty from structure. Designers and coders alike have contributed to the beauty of the web; we can always push it further.*/
+#zen-explanation p {
+    font-size: 16px; 
+    color: #555; 
+    line-height: 1.5; 
+}
+
+/*Participation*/
+#zen-participation h3{
+    font-size: 24px; 
+    color: #65a134; 
+    font-weight: bold; 
+    font-size: 30px; 
+
+}
+
+/*Strong visual design has always been our focus. You are modifying this page, so strong CSS skills are necessary too, but the example files are commented well enough that even CSS novices can use them as starting points. Please see the CSS Resource Guide for advanced tutorials and tips on working with CSS.
+You may modify the style sheet in any way you wish, but not the HTML. This may seem daunting at first if you’ve never worked this way before, but follow the listed links to learn more, and use the sample files as a guide.
+Download the sample HTML and CSS to work on a copy locally. Once you have completed your masterpiece (and please, don’t submit half-finished work) upload your CSS file to a web server under your control. Send us a link to an archive of that file and all associated assets, and if we choose to use it we will download it and place it on our server.*/
+#zen-participation p{
+    font-size: 16px; 
+    color: #555; 
+    line-height: 1.5; 
+}
+
+/*Benefits*/
+#zen-benefits h3{
+    color: #65a134; 
+    font-weight: bold; 
+    font-size: 30px; 
+
+}
+
+/*Why participate? For recognition, inspiration, and a resource we can all refer to showing people how amazing CSS really can be. This site serves as equal parts inspiration for those working on the web today, learning tool for those who will be tomorrow, and gallery of future techniques we can all look forward to.*/
+#zen-benefits p{
+    font-size: 16px; 
+    color: #555; 
+    line-height: 1.5; 
+}
+
+/*Requirements*/
+#zen-requirements h3{
+    color: #65a134; 
+    font-weight: bold; 
+    font-size: 30px; 
+
+}
+
+/*Where possible, we would like to see mostly CSS 1 & 2 usage. CSS 3 & 4 should be limited to widely-supported elements only, or strong fallbacks should be provided. The CSS Zen Garden is about functional, practical CSS and not the latest bleeding-edge tricks viewable by 2% of the browsing public. The only real requirement we have is that your CSS validates.
+Luckily, designing this way shows how well various browsers have implemented CSS by now. When sticking to the guidelines you should see fairly consistent results across most modern browsers. Due to the sheer number of user agents on the web these days — especially when you factor in mobile — pixel-perfect layouts may not be possible across every platform. That’s okay, but do test in as many as you can. Your design should work in at least IE9+ and the latest Chrome, Firefox, iOS and Android browsers (run by over 90% of the population).
+We ask that you submit original artwork. Please respect copyright laws. Please keep objectionable material to a minimum, and try to incorporate unique and interesting visual themes to your work. We’re well past the point of needing another garden-related design.
+This is a learning exercise as well as a demonstration. You retain full copyright on your graphics (with limited exceptions, see submission guidelines), but we ask you release your CSS under a Creative Commons license identical to the one on this site so that others may learn from your work.
+By Dave Shea. Bandwidth graciously donated by mediatemple. Now available: Zen Garden, the book.*/
+#zen-requirements p{
+    font-size: 16px; 
+    color: #555; 
+    line-height: 1.5; 
+}
+
+/*select a design*/
+#design-selection h3{
+    color: #65a134; 
+    font-weight: bold; 
+    font-size: 15px; 
+    margin-top: 50px;
+}
+
+/*punteo de contenidos navegables*/
+#design-selection ul{
+    font-size: 15px; 
+}
+
+
+/*archives*/
+#design-archives h3 {
+    color: #65a134; 
+    font-weight: bold; 
+    font-size: 15px; 
+}
+
+/*punteo de contenidos navegables*/
+#design-archives ul{
+    font-size: 15px; 
+}
+
+/*resources*/
+#zen-resources h3{
+    color: #65a134; 
+    font-weight: bold; 
+    font-size: 15px; 
+}
+
+
+/*punteo de contenidos navegables*/
+#zen-resources ul{
+    font-size: 15px; 
+}
+
+
+/*links navegable*/
+a {
+    color: #006616;
+    transition: color 0.3s ease; 
+}
+
+/*interacción, cambio el color el link navegable al pasar el cursor*/
+a:hover {
+    color: #5cd152; 
+}
+
+
+
+
+
+
+
+
+
+
